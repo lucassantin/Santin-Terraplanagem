@@ -1,0 +1,35 @@
+@media (min-width: 432px) {
+    .imgNav{
+        width: 50px;
+        height: 50px;
+    }
+
+    .textNav{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 432px){
+    .imgNav{
+        width: 30px;
+        height: 30px;
+    }
+
+    .textNav{
+        font-size: 12px;
+    }
+}
+
+.caixaItem{
+    display: flex;
+    align-items: center;
+}
+
+.textNav{
+    font-weight: 600;
+}
+
+.textNav:hover{
+    color: #EE831D;
+}

@@ -1,0 +1,36 @@
+@media (min-width: 432px) {
+    .navbarBox{
+        height: 60px;
+        width: 1424px;
+    }
+
+    .Setores{
+        gap: 40px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 432px){
+    .navbarBox{
+        height: 40px;
+        width: 415px;
+    }
+
+    .Setores{
+        gap: 15px
+    }
+}
+
+.navbarBox{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.Setores{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,55 @@
+@media (min-width: 432px){
+    .boxApres{
+        min-width: 432px;
+        max-width: 1444px;
+        height: 750px;
+        padding-top: 45px;
+        overflow-x: hidden;
+    }
+
+    .title{
+        font-size: 58px;
+
+    }
+
+    .obj{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:431px){
+    .boxApres{
+        min-width: 320px;
+        max-width: 431px;
+        height: 400px;
+        padding-top: 30px;
+        overflow-x: hidden;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .obj{
+        font-size: 14.5px;
+    }
+}
+
+.boxApres{
+    background-image: url('./assets/capa2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title{
+    color: #EE831C;
+    font-weight: bold;
+}
+
+.obj{
+    color: #EE831C;
+}

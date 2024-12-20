@@ -1,0 +1,87 @@
+@media (min-width: 432px) {
+    .box{
+        min-width: 432px;
+        max-width: 1444px;
+        height: 700px;
+        flex-direction: row;
+        padding: 0 30px 0;
+    }
+
+    .box::before{
+        top: -35px; left: 50%;
+        width: 70px; 
+        height: 70px;  
+    }    
+
+    .Title{
+        font-size: 55px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .Text{
+        width: 50%;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Texto{
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    
+}
+
+@media (max-width:432px){
+    .box{
+        min-width: 320px;
+        max-width: 432px;
+        height: 500px;
+    }
+
+    .box::before{
+        top: -10px; left: 50%;
+        width:  20px; 
+        height: 20px;  
+    }
+
+    .Text{
+        width: 100%;
+        padding: 0 30px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Title{
+        font-size: 40px;
+        font-weight: 700;
+        padding: 10px 0 0 0;
+        color: black;
+    }
+
+    .EscavadeiraSobre{
+        display: none;
+    }
+}
+
+.box{
+    background-color: white;
+    background-size: cover;
+    color: #393939;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.box::before {
+    content: ''; 
+    position: absolute; 
+    transform: translateX(-50%) rotate(45deg); 
+    background-color:#EE831C;
+}
+
+
+

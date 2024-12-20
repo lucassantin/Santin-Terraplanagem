@@ -1,0 +1,118 @@
+@media (min-width: 432px) {
+    .DefBox{
+        min-width: 432px;
+        max-width: 1444px;
+        height: 325px;
+    }
+
+    .CaixaCont{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .Botao{
+        width: 225px;
+        height: 60px;
+    }
+    
+}
+
+@media (max-width:432px){
+    .DefBox{
+        min-width: 320px;
+        max-width: 432px;
+        height: 450px;
+    }
+
+    .CaixaCont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Tel{
+        width: 40px;
+        height: 40px;
+    }
+
+    .Botao{
+        width: 230px;
+        height: 55px;
+        margin-top: 20px;
+    }
+}
+
+
+.DefBox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.Bar{
+    display: flex;
+    align-items: center;
+    background-color: #EA9311;
+    width: 150px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.MessageIcon{
+    width: 80px;
+    height: 80px;
+}
+
+.Contat{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.ContatText{
+    font-size: 16px;
+    color: #727171;
+}
+
+.CaixinhaContat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CaixaCont{
+    padding-top: 20px;     
+}
+
+.Name{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.Botao{
+    display: flex;
+    align-items: center;
+    background-color: #EA9311;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.Tel{
+    padding: 10px;
+}
+
+.tagA{
+    text-decoration: none;
+}
+
+.CaixaNome{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

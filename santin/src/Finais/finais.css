@@ -1,0 +1,19 @@
+@media (max-width: 432px) {
+    .Final{
+        height: 50px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 432px){
+    .Final{
+        height: 60px;
+    }
+}
+
+.Final{
+    width: 100%;
+    background-color: #363942;
+    align-content: center;
+    text-align: center;
+}

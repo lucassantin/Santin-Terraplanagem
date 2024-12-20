@@ -1,0 +1,93 @@
+@media (min-width: 432px){
+    .Box{
+        min-width: 432px;
+        max-width: 1444px;
+        height: 700px;
+        padding: 60px 30px 0;
+    }
+
+    .Snow{
+        width: 120px;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+
+    .Tit{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        padding: 0;
+    }
+
+    .desc{
+        width: auto;
+        font-size: 18px;
+        color: #727171;
+        padding-top: 10px;
+    }
+
+    .Comp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+
+    
+}
+
+@media (max-width:432px){
+    .Box{
+        min-width: 320px;
+        max-width: 432px;
+        height: 950px;
+    }
+
+    .Snow{
+        width: 70px;
+        height: 70px;
+        padding:  20px 0 10px 0;
+    }
+
+    .Tit{
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .desc{
+        font-size: 14px;
+        padding: 10px 20px 0;
+        text-align: center;
+    }
+
+    .Comp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+}
+
+.Box{
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Expl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #979797;
+}
+
+.Trac{
+    display: flex;
+    align-items: center;
+    background-color: #EA9311;
+    width: 150px;
+    height: 2px;
+    margin-top: 20px;
+}
